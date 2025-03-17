@@ -1,0 +1,38 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.8.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-03-17T17_04_38_339Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-03-17T17_04_38_339Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:980418560 maxSize:245104640 maxEntrySize:122552320
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/data/data/com.termux/files/home/package.json'
+14 verbose stack     at async open (node:internal/fs/promises:634:25)
+14 verbose stack     at async readFile (node:internal/fs/promises:1238:14)
+14 verbose stack     at async read (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:9:18)
+14 verbose stack     at async PackageJson.load (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:131:31)
+14 verbose stack     at async PackageJson.normalize (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+14 verbose stack     at async runScript (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:11:28)
+14 verbose stack     at async Install.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/install.js:175:9)
+14 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:207:9)
+14 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+15 error code ENOENT
+16 error syscall open
+17 error path /data/data/com.termux/files/home/package.json
+18 error errno -2
+19 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/data/data/com.termux/files/home/package.json'
+20 error enoent This is related to npm not being able to find a file.
+20 error enoent
+21 verbose cwd /data/data/com.termux/files/home
+22 verbose os Linux 4.19.157-perf-ga763929f5bb9
+23 verbose node v23.8.0
+24 verbose npm  v10.9.2
+25 verbose exit -2
+26 verbose code -2
+27 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-03-17T17_04_38_339Z-debug-0.log

@@ -1,0 +1,12 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Shakil Node.js Bot",
+  "main": "shakil.js",
+  "scripts": {
+    "start": "node shakil.js"
+  },
+  "dependencies": {
+    "axios": "^1.0.0"
+  }
+}

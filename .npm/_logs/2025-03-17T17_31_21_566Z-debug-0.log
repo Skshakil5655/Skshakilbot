@@ -1,0 +1,47 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.8.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-03-17T17_31_21_566Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-03-17T17_31_21_566Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:980418560 maxSize:245104640 maxEntrySize:122552320
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 silly audit bulk request {
+14 silly audit   asynckit: [ '0.4.0' ],
+14 silly audit   axios: [ '1.8.3' ],
+14 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+14 silly audit   'combined-stream': [ '1.0.8' ],
+14 silly audit   'delayed-stream': [ '1.0.0' ],
+14 silly audit   'dunder-proto': [ '1.0.1' ],
+14 silly audit   'es-define-property': [ '1.0.1' ],
+14 silly audit   'es-errors': [ '1.3.0' ],
+14 silly audit   'es-object-atoms': [ '1.1.1' ],
+14 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+14 silly audit   'follow-redirects': [ '1.15.9' ],
+14 silly audit   'form-data': [ '4.0.2' ],
+14 silly audit   'function-bind': [ '1.1.2' ],
+14 silly audit   'get-intrinsic': [ '1.3.0' ],
+14 silly audit   'get-proto': [ '1.0.1' ],
+14 silly audit   gopd: [ '1.2.0' ],
+14 silly audit   'has-symbols': [ '1.1.0' ],
+14 silly audit   'has-tostringtag': [ '1.0.2' ],
+14 silly audit   hasown: [ '2.0.2' ],
+14 silly audit   'math-intrinsics': [ '1.1.0' ],
+14 silly audit   'mime-db': [ '1.52.0' ],
+14 silly audit   'mime-types': [ '2.1.35' ],
+14 silly audit   'proxy-from-env': [ '1.1.0' ]
+14 silly audit }
+15 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1124ms
+16 silly audit report {}
+17 verbose cwd /data/data/com.termux/files/home
+18 verbose os Linux 4.19.157-perf-ga763929f5bb9
+19 verbose node v23.8.0
+20 verbose npm  v10.9.2
+21 verbose exit 0
+22 info ok
